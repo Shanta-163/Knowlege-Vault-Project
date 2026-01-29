@@ -3,12 +3,11 @@
   padding: 0;
   box-sizing: border-box; 
   text-decoration: none;
-  border: none;
   
 }
 .container{
   max-width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 body {
@@ -107,11 +106,12 @@ nav{
   margin-bottom: 120px;
 }
 .notes-title{
-  color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+  color: var(--#627382, rgba(98, 115, 130, 1));
   margin-bottom: 16px;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
+  padding-top: 50px;
   
 }
 .notes-title-p{
@@ -120,4 +120,54 @@ nav{
   font-weight: 400;
   text-align: center;
   margin-bottom: 44px;
+}
+.notes-card-p{
+  color: var(--#627382, rgba(98, 115, 130, 1));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.notes-card-h2{
+  margin-bottom: 16px;
+  color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  
+ 
+}
+.vector{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  
+}
+.notes-card{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  align-items: center;
+ 
+}
+.notes-card-parent{
+  display: flex;
+  gap: 24px;
+}
+.card-img-parent{
+   width: 60px;    
+  height: 60px;
+  border-radius:50%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(249, 85, 85, 1);
+  margin-bottom: 16px;
+  margin-top: 70px;
+  
 }
