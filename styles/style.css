@@ -103,7 +103,7 @@ nav{
 }
 /*notes styling*/
 .notes-section{
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 .notes-title{
   color: var(--#627382, rgba(98, 115, 130, 1));
@@ -170,4 +170,59 @@ nav{
   margin-bottom: 16px;
   margin-top: 70px;
   
+}
+/*brain section styling*/
+.brain-card img{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+.brain-card-left{
+  display: flex;
+  flex-direction: column;
+}
+.brain-card-message{
+  color: #30B868;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 102px;
+}
+.brain-card-title{
+  color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+.brain-card-desc{
+  color: var(--#627382, rgba(98, 115, 130, 1));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.brain-card-list li{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+.brain-card-list li .CheckCircle{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  
+}
+.brain-card-list{
+  margin-bottom: 102px;
+}
+.brain-card{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.brain-section{
+  margin-top: 60px;
+
 }
