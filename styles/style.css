@@ -354,3 +354,10 @@ hr{
   color: rgba(250, 250, 250, 1);
   text-align: center;
 }
+/*button hover*/
+.btn:hover{
+  background-color: brown;
+  color: aqua;
+  box-shadow: 0px 8px 20px rgba(48, 184, 104, 0.4);
+  cursor: pointer;
+}
